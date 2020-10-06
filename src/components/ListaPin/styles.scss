@@ -1,0 +1,29 @@
+.linkPin {
+  text-decoration: none;
+  color: black;
+}
+
+.linkPin:hover {
+  background-color: rgba(152, 161, 161, 0.582);
+  text-decoration: none;
+  color: black;
+}
+
+.linkPin::-ms-expand{
+  background-color: blueviolet;
+}
+
+.ul-pin{
+  flex: 1 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 600px) { /*media query*/
+  .ul-pin{
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+

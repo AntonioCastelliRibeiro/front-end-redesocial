@@ -1,0 +1,51 @@
+
+aside form { /*distancia entre o titulo e a tag form*/
+  margin-top: 30px;
+}
+
+aside form .input-block + .input-block{ /*pega os .input-block depois de achar o primero .input-block*/
+  margin-top: 20px;
+}
+
+aside form .input-block label { /*todos os label em cima dos input*/
+  color: #acacac;
+  font-size: 14px;
+  font-weight: bold; /*negrito*/
+  display: block;
+}
+
+/* aside form .input-block input { /*todos os campos de insert*/ */
+  /* width: 100%; */
+  /* height: 32px; */
+  /* font-size: 14px; */
+  /* color: #666; */
+  /* border: 0; /*tira todas as bordas visiveis do campo*/ */
+  /* border-bottom: 1px solid #eee; /*bordas embaixo*/ */
+/* } */
+
+/* aside form button[type=submit] { /*apenas para o botao*/ */
+  /* width: 100%; */
+  /* border: 0; /*tira as bordas visiveis do btn*/ */
+  /* margin-top: 30px; */
+  /* background: #7d40e7; */
+  /* border-radius: 2px; */
+  /* padding: 15px 20px; */
+  /* font-size: 16px; */
+  /* font-weight: bold; */
+  /* color: #fff; */
+  /* cursor: pointer; /*ponteiro do mouse*/ */
+  /* transition: background 0.5s; /*transicao das cores*/ */
+/* } */
+
+aside form button[type=submit]:hover { /*trocar cor passar mouse*/ 
+  background: #6931ca;
+}
+
+aside form .input-a a {
+  font-size: 14px;
+  color: #7d40e7;
+  transition: background 0.5s;
+}
+aside form .input-a a:hover {
+  color: #6931ca;
+}

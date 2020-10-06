@@ -1,0 +1,73 @@
+.div-img-header{
+  padding: 1px 0px 0px 5px;
+}
+
+.modal-style{
+  padding: 10px;
+}
+
+label{
+  margin-bottom: 2px;
+}
+
+.div-campo{
+  display: flex;
+}
+
+.div-img{
+  padding: 40px 10px 0px 5px;
+}
+
+.img-edit{
+  opacity: 70%;
+}
+
+.tooltip-edit{
+  z-index: 9999999;
+}
+
+.div-cadastrar{
+  opacity: 100%;
+  animation: divCadastrar ease-in 0.3s;
+}
+
+.modal-body-materia-effect{
+  opacity: 100%;
+  animation: materiaEffetct ease-in 0.3s;
+  padding: 0px 0px 10px 10px;
+}
+
+@keyframes materiaEffetct {
+  0%{
+    opacity: 15%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
+.modal-body-materia{
+  padding: 0px 0px 10px 10px;
+  opacity: 100%;
+  animation: bodyMateria ease-in 0.3s;
+}
+
+@keyframes bodyMateria{
+  0%{
+    opacity: 15%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+.modal-header-materia{
+  padding: 15px 17px 10px 19px;
+}
+
+.modal-footer-materia{
+  padding: 2px 8px 2px 8px;
+}
+
+.div-edit-delete{
+  padding: 29px 1px 0px 1px;
+}

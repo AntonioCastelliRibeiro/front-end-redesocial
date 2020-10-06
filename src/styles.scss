@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+
+$corH1: #fff;
+
+$theme-colors: (
+  "info": tomato,
+  "danger": teal
+);
+
+#alert-config{
+  position:absolute;
+  width: 100%;
+}
+

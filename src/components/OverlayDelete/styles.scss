@@ -1,0 +1,21 @@
+
+.div-delete{
+  padding: 8px 5px 8px 4px;
+  border-radius: 8px;
+  // width: 30px;
+}
+
+.div-delete:hover{
+  cursor: pointer;
+  // background-color: rgba(248, 18, 18, 0.200);
+  .img-delete{
+    width: 27px;
+  }  
+}
+
+.img-delete {
+  cursor: pointer;
+  width: 27px;
+  opacity: 48%;
+  transition: background-color 0.3s ease-out,  padding 0.3s ease-out;
+}

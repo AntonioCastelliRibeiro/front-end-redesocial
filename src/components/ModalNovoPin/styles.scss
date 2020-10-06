@@ -1,0 +1,34 @@
+.modal{
+  opacity: 100%;
+  
+}
+
+.label{
+  margin-bottom: 0;
+}
+
+// .modal-backdrop.show{
+//   opacity: 0.2;
+// }
+
+.modal-header-pin {
+  padding: 20px 10px 10px 5px;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0px 14px 10px 14px
+}
+
+.modal-footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px 5px 0px;
+  border-top: 1px solid #dee2e6;
+  border-bottom-right-radius: calc(0.3rem - 1px);
+  border-bottom-left-radius: calc(0.3rem - 1px);
+}
+

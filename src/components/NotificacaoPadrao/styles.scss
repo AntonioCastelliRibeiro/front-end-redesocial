@@ -1,0 +1,34 @@
+.item {
+  opacity: 0;
+}
+
+.div-notificacao{
+  // opacity: 10%;
+  transition: ease-in-out 0.5s;
+}
+
+
+.div-notificacao-close{
+  transition: ease-in-out 0.2s;
+  opacity: 25%;
+}
+
+.not {
+  // z-index: 99999;
+}
+
+.not-enter {
+  opacity: 0;
+}
+.not-enter-active {
+  opacity: 1%;
+  transition: opacity 0.3ms ease-in;
+}
+.not-exit {
+  opacity: 1%;
+}
+.not-exit-active {
+  opacity: 0%;
+  transition: opacity 0.3ms ease-in;
+}
+

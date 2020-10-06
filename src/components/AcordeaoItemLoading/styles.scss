@@ -1,0 +1,127 @@
+.dev-item-loading{
+  height: 73px;
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  padding: 10px 15px 7px 15px;
+  // transition: ease-in-out 0.4s;
+  // animation: DevItemOpacity 0.8s;
+}
+
+.user-name { /*nome do usuario*/
+  display: block;
+  font-size: 16px;
+  height: 15px;
+  width: 200px;
+  // margin-top: 4px;
+  background-color:  rgb(177, 175, 175);
+  opacity: 35%;
+}
+
+.user-name:hover { /*nome do usuario*/
+  display: block;
+  font-size: 16px;
+  height: 15px;
+  width: 200px;
+  margin-top: 2px;
+  background-color:  rgb(177, 175, 175);
+  opacity: 45%;
+}
+
+.user-item { /*nome do usuario*/
+  display: block;
+  font-size: 16px;
+  height: 10px;
+  width: 200px;
+  margin-top: 4px;
+  background-color:  rgb(177, 175, 175);
+  opacity: 28%;
+}
+
+.user-item:hover { /*nome do usuario*/
+  display: block;
+  font-size: 16px;
+  height: 10px;
+  width: 200px;
+  margin-top: 2px;
+  background-color:  rgb(177, 175, 175);
+  opacity: 40%;
+}
+
+.user-resposta { /*nome do usuario*/
+  display: block;
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+  margin-top: 6px;
+  background-color:  rgb(177, 175, 175);
+  opacity: 28%;
+}
+
+.user-resposta:hover { /*nome do usuario*/
+  display: block;
+  font-size: 16px;
+  height: 45px;
+  width: 100%;
+  margin-top: 6px;
+  background-color:  rgb(177, 175, 175);
+  opacity: 40%;
+}
+
+.user-info span { /*status*/
+  font-size: 11px;
+  color: #999;
+  margin-top: 1px;
+  display: block
+}
+
+
+// li.dev-item { /*lista de devs*/
+//   background: #fff;
+//   box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+//   border-radius: 2px;
+//   padding: 20px;
+// }
+
+li.dev-item header, .header-loading { /*alinhar as descricoes*/
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.div-item{
+  display: flex;
+  padding-left: 25px;
+}
+
+// li.dev-item header img { /*imagem do perfil*/
+//   width: 65px;
+//   height: 65px;
+//   border-radius: 50%;
+//   opacity: 20%;
+  
+// }
+
+.img-seta {
+  position: absolute;
+}
+
+// li.dev-item header img:hover { /*imagem do perfil*/
+//   opacity: 40%;
+// }
+
+li.dev-item header .user-info { /*descricoes do usuario*/
+  margin-left: 10px;
+}
+
+.alert {
+  position: inherit;
+  /*background-color: #721c24*/
+}
+.alert:hover{
+  /*background-color: #c0cfee;*/
+}
+
+.card {
+  position: inherit;
+}
+

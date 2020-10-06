@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); /* fonte Roboto google*/
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  /* padding-top: 10px; */
+  background-color: #1b1b1b3b
+  ;
+  transition: background 4s;
+  /* background-color: #1b1b1b5d; */
+
+  -webkit-font-smoothing: antialiased; /* fonte legivel*/
+  
+} 
+
+body, input, button { /*  input e button nao herda do corpo a fonte */
+  font-family: Roboto, sans-serif;
+}

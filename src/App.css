@@ -1,0 +1,77 @@
+#app {
+  max-width: 1200px; /*largura max*/
+  margin: 0 auto; /* centraliza*/
+  padding: 60px 20px; /* 30 px direita e esquerda*/
+  display: flex;
+  flex-direction: row; /* para ficar o aside e o main um do lado do outro*/
+  align-items: flex-start; /*sempre alinhados ao topo*/
+  padding-bottom: 100px;
+}
+
+#app main { /*acessa a div principal do componente pega o main e joga margin left*/
+  margin-left: 10px;
+  margin-top: 13px;
+}
+
+@media (max-width: 1000px) { /*media query*/
+  #app main { 
+    flex-direction: column;
+  }
+
+  #app main { 
+    margin-left: 0px; /*tira a margin left q colocou acima para distanciar os elem. lateralmente*/
+    /* margin-top: 13px; */
+    width: 100%;
+  }
+
+  #app aside {
+    width: 100%; /*coloca o cadastro 100% de largura */
+  }  
+}
+
+aside {
+  margin-top: 25px;
+}
+
+/* aside img {
+  height: 150px;
+  width: 150px;
+  margin-left: 22%;
+  border-radius: 200px;
+}
+
+aside img:hover {
+  opacity: 90%;
+} */
+
+aside h1{
+  text-align: center;
+}
+
+aside p {
+  text-align: center;
+  
+}
+
+p{
+  margin: 0px;
+}
+
+.modal-backdrop.show{
+  opacity: 0.2;
+}
+
+
+/*
+aside #aSair{
+ margin-left: 45%;
+ font-size: 15px;
+ color: #8e4dff;
+ text-decoration: none;
+ transition: color 0.5s;
+}
+
+aside #aSair:hover{
+  color: black;
+}*/
+

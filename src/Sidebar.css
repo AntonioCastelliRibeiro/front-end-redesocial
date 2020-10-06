@@ -1,0 +1,15 @@
+aside { /*fundo */
+  width: 320px;
+  background: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+  border-radius: 2px;
+  /*padding: 30px 20px; /* 30 em cima e embaixo e 20 na direita*/
+  padding: 14px;
+}
+
+aside strong { /*titulo*/
+  font-size: 20px;
+  text-align: center; 
+  display: block; /* por padrao é inline*/
+  color: #333;
+}

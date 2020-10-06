@@ -1,0 +1,36 @@
+// .chk-anonimo, .form-check{
+//   cursor: pointer;
+// }
+
+.modal-body-perguntar {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 0px 10px 0px 10px;
+}
+
+.modal-footer-perguntar{
+  padding: 5px 5px 5px 5px;
+}
+
+.form-group {
+  margin: 0px;
+  width: 100%;
+}
+
+.form-check-label, .chk-group, .custom-control-label{
+  cursor: pointer;
+}
+
+.form-group-style{
+  padding: 5px 5px 5px 10px;
+  margin: 5px;
+}
+
+.form-group-style:hover{
+  border-radius: 10px;
+  // background: rgba(182, 182, 182, 0.281);
+}
+
+.tooltip-novapergunta{
+  z-index: 9999999;
+}

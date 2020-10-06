@@ -1,0 +1,62 @@
+.alerta-resposta{
+  color: #ff0000c4;
+  font-size: 12px;
+  margin-bottom: 0px;
+  padding: 0px;
+  background-color: rgb(255, 255, 255);
+}
+
+.div-resposta-aluno{
+  padding: 0px 10px 15px 8px;
+  cursor: pointer;
+  // margin-le
+  // padding-bottom: 32px;
+}
+ 
+.div-resposta-aluno:hover{
+ .image-resposta {
+  opacity: 60%;
+ }
+}
+
+.image-resposta {
+  // margin-right: 7px;
+  width: 25px;
+  height: 25px;
+  opacity: 30%;
+}
+
+.div-resposta-expand:hover {
+  .image-resposta {
+    padding: 0px 0px 0px 0px;
+    // height: 25
+    opacity: 60%;
+  }
+}
+
+.img-setacima{
+  width: 25px; 
+  height: 25px;
+  opacity: 30%;
+}
+
+.div-setabaixo:hover, .div-setacima:hover{
+  .img-setacima{
+    cursor: pointer;
+    opacity: 60%;
+  }
+}
+
+.div-setacima, .div-setabaixo, .div-resposta-expand{
+cursor: pointer;
+
+}
+
+.div-delete-resposta{
+  padding: 33px 5px 8px 4px;
+  border-radius: 8px;
+}
+
+.div-overlay-delete{
+  padding: 20px 0px 0px 5px;
+}

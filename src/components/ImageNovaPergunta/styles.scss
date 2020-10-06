@@ -1,0 +1,26 @@
+.img-pergunta {
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  top: 85%;
+  left: 86%;
+  opacity: 58%;
+  transition-timing-function: ease-in-out;
+  transition: width 8s;
+  transition: height 8s;
+  transition: top 8s;
+  transition: left 2s;
+  border-radius: 0px;
+}
+
+.img-pergunta:hover {
+  width: 65px;
+  height: 62px;
+  top: 84%;
+  left: 85%;
+  opacity: 60%;
+  // background-color: hsl(180, 1%, 22%);
+}
+
+
+

@@ -1,0 +1,15 @@
+.linkPergunta {
+  text-decoration: none;
+  color: black;
+}
+
+.linkPergunta:hover {
+  background-color: rgba(152, 161, 161, 0.582);
+  text-decoration: none;
+  color: black;
+}
+
+.linkPergunta::-ms-expand{
+  background-color: blueviolet;
+}
+

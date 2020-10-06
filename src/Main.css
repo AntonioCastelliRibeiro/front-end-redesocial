@@ -1,0 +1,30 @@
+
+.modal, .popover {
+  z-index: 999998;
+  /*notificacao: 999999*/
+  /*navbartop e bottom: 999997*/
+ /*tooltip-pergunta: 9999999*/
+}
+
+main {
+  flex: 1; /*ocupe todo o espaço lateral*/
+  display: grid;
+  grid-template-columns: auto auto auto; /*alinha os itens lado a lado a cada auto*/
+  gap: 10px; /*distancia entre os itens do grid*/
+  list-style: none;
+}
+
+@media (max-width: 1100px) { 
+  #app main {    
+    grid-template-columns: 1fr 1fr; /*alinha os itens lado a lado a cada 1fr*/
+  }
+}
+
+/*@media (max-width: 650px) { media query*/
+  @media (max-width: 710px) { 
+  #app main {    
+    grid-template-columns: 1fr; /*alinha os itens lado a lado a cada 1fr*/
+  }
+}
+
+
