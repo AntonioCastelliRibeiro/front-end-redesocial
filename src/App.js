@@ -108,6 +108,7 @@ class App extends React.Component {
   }
 
   componentDidMount(){
+    console.log(connection);
     (this.state.Token.session.token !== null) ? (this.carregarDadosUsuario()) :
     (this.setState({ isProfessor: true, isAluno: false, isEntrar: true, isLogin: true, isLogged: false, spinnerLogin: false }));
   }
