@@ -34,7 +34,9 @@ import TokenObj from './class/Token';
 
 import io from 'socket.io-client';
 
-const socket = io(connection);
+// const socket = io(connection);
+const socket = io("/");
+
 
 
 //const socket = io('http://25.105.184.74:3333');
