@@ -146,7 +146,7 @@ export default function AcordeaoItemHome(props){
             <div className="row" >
               <div className="col" style={{position: "inherit"}}>
                 <div className="user-info"  >
-                  <input className="input-nome" readOnly value={(props.data.st_anonimo === 'S')?('Anonimo'):(props.data.nm_aluno)}/>
+                  <input className="input-nome" readOnly value={(props.data.st_anonimo === 'S')?('Anônimo'):(props.data.nm_aluno)}/>
                   {/* <span>{retornarDescricaoStatus(props.data, true)}</span> */}
                   <span>{retornarDescricaoStatus(props.data, false, true)}</span>
                   <span>{retornarDescricaoStatus(props.data, false, false, true)}</span>
